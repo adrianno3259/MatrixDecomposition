@@ -85,6 +85,10 @@ void sumLineByScalar(Matrix* m, int l1, int l2, double s){
         m->data[l1][i] += s*m->data[l2][i];
 }
 
+#define PI(I) printf("%s = %d\n", #I, (I))
+#define PD(D) printf("%s = %lf\n", #D, (D))
+#define INFO(S) printf("%s\n", #S)
+
 void gaussianElimination(Matrix* m){
     int i, j, col = 0, n = m->dimension;
 

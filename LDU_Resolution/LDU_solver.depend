@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1514428227 source:/home/adrianno/Documents/Mestrado/Linalg/MatrixDecomposition/LDU_Resolution/main.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+

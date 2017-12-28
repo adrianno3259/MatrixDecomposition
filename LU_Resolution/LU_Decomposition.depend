@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1514401362 source:/home/adrianno/Documents/Mestrado/Linalg/MatrixDecomposition/matrix.c
+	"matrix.h"
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1514401920 /home/adrianno/Documents/Mestrado/Linalg/MatrixDecomposition/matrix.h
+
+1514407371 source:/home/adrianno/Documents/Mestrado/Linalg/MatrixDecomposition/LU_Resolution/main.c
+	<stdio.h>
+	<stdlib.h>
+	"../matrix.h"
+
+1514421136 source:/home/adrianno/Documents/Mestrado/Linalg/MatrixDecomposition/LU_Resolution/lu_solver.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+

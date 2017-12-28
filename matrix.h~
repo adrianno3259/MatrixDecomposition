@@ -5,9 +5,6 @@
 //#define printMatrix(A) printf("%s = \n", #A); print_matrix(A)
 #define setMatrix(M,I,J,V) M.data[I][J] = V
 #define setMatrixPtr(M,I,J,V) M->data[I][J] = V
-#define PI(I) printf("%s = %d\n", #I, (I))
-#define PD(D) printf("%s = %lf\n", #D, (D))
-#define INFO(S) printf("%s\n", #S)
 
 typedef struct{
     int dimension; //
@@ -20,10 +17,6 @@ void freeMatrix(Matrix* m);
 
 // impressão
 void printMatrix(Matrix m);
-void printMatrixLine(Matrix m, int i);
-
-//transposta
-void transposeMatrix(Matrix* m);
 
 // Operações elementares
 void swapLines(Matrix* m, int l1, int l2);
@@ -35,9 +28,7 @@ void gaussianElimination(Matrix* m);
 
 // decomposição LU
 Matrix LU(Matrix* m);
-Matrix* LU_NoChanges(Matrix* m);
 Matrix* LDU(Matrix* m);
-Matrix* LDU_NoChanges(Matrix* m);
 
 // ortogonalização de Gram-Schimidt
 Matrix GramSchmidt(Matrix m);
